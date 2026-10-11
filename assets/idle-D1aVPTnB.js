@@ -1,0 +1,1 @@
+function e(e,t=1500){let n=window;if(n.requestIdleCallback){let r=n.requestIdleCallback(e,{timeout:t});return()=>n.cancelIdleCallback?.(r)}let r=window.setTimeout(e,200);return()=>clearTimeout(r)}export{e as t};

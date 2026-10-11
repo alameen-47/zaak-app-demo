@@ -1,0 +1,1 @@
+var e=``+new URL(`zaak-brand-BcAWpBx3.webp`,import.meta.url).href;export{e as t};
